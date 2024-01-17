@@ -27,7 +27,8 @@ h1{
 .to-do{
     background-color: antiquewhite;
     width: 40%;
-    height: 50vh;
+    
+    max-height: 100vh;
     border-radius: 15px;
 }
 
@@ -64,6 +65,7 @@ ul li{
     cursor: pointer;
     position: relative;
     text-align: left;
+    margin-bottom: 3%;
 }
 
 ul li::before{
